@@ -13,8 +13,8 @@ const App = (props) => {
             <div className="container-fluid p-0">
                 <div className="row bg-dark">
                     <div className="col-md-1"></div>
-                    <div className="col-md-10 p-0">
-                        <Navbar logoButton={"Start Bootstrap"} firstButton={"Home"} secondButton={"Service"} thirdButton={"Contact"} />
+                    <div className="col-md-10">
+                        <Navbar logoButton={"Start Bootstrap"} firstButton={"Home"} secondButton={"About"} thirdButton={"Service"} fourthButton={"Contact"} />
                     </div>
                     <div className="col-md-1"></div>
                 </div>
@@ -23,22 +23,22 @@ const App = (props) => {
             <div className="container">
                 <div className="row mt-4">
                     <div className="col-md-12">
-                        <Jumbotron titleJumbotron={"Hello, world!"} textJumbotron={"aa"} buttonJumbotron={"bb"} />
+                        <Jumbotron titleJumbotron={"A Warm Welcome!"} textJumbotron={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat."} buttonJumbotron={"Call to action!"} />
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-md-3">
-                        <Card titleCard={"Hello, world!"} imgCard="https://placehold.it/500x325" textCard={"aa"} buttonCard={"bb"} />
+                        <Card titleCard={"Card title"} imgCard="https://placehold.it/500x325" textCard={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto."} buttonCard={"Find Out More!"} />
                     </div>
                     <div className="col-md-3">
-                        <Card titleCard={"Hello, world!"} imgCard="https://placehold.it/500x325" textCard={"aa"} buttonCard={"bb"} />
+                        <Card titleCard={"Card title"} imgCard="https://placehold.it/500x325" textCard={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto."} buttonCard={"Find Out More!"} />
                     </div>
                     <div className="col-md-3">
-                        <Card titleCard={"Hello, world!"} imgCard="https://placehold.it/500x325" textCard={"aa"} buttonCard={"bb"} />
+                        <Card titleCard={"Card title"} imgCard="https://placehold.it/500x325" textCard={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto."} buttonCard={"Find Out More!"} />
                     </div>
                     <div className="col-md-3">
-                        <Card titleCard={"Hello, world!"} imgCard="https://placehold.it/500x325" textCard={"aa"} buttonCard={"bb"} />
+                        <Card titleCard={"Card title"} imgCard="https://placehold.it/500x325" textCard={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto."} buttonCard={"Find Out More!"} />
                     </div>
                 </div>
             </div>
