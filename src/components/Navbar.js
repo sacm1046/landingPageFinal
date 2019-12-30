@@ -11,16 +11,16 @@ const Navbar = (props) => {
       <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item active">
-  <a className="nav-link text-white" href="#">{props.firstButton}</a>
+            <a className="nav-link text-white" href="#">{props.firstButton}</a>
           </li>
           <li className="nav-item">
-  <a className="nav-link" href="#">{props.secondButton}</a>
+            <a className="nav-link" href="#">{props.secondButton}</a>
           </li>
           <li className="nav-item">
-  <a className="nav-link" href="#">{props.thirdButton}</a>
+            <a className="nav-link" href="#">{props.thirdButton}</a>
           </li>
           <li className="nav-item">
-  <a className="nav-link" href="#">{props.fourthButton}</a>
+            <a className="nav-link" href="#">{props.fourthButton}</a>
           </li>
         </ul>
       </div>
